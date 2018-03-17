@@ -1,0 +1,6 @@
+digraph dependency_graph {
+    "a (placeholder)" -> "c = (a + b)";
+    "a (placeholder)" -> "d = (2 * a)";
+    "b (placeholder)" -> "c = (a + b)";
+    "const (constant)";
+}
