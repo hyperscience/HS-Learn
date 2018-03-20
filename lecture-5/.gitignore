@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 MNIST_data/
+saved_model/
 summaries_logdir/
