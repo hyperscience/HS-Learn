@@ -15,6 +15,14 @@ After you download the archive, extract it:
 
     tar -xzvf inception_resnet_v2_2016_08_30.tar.gz
 
+# Installed required packages
+
+Using your favorite python environment manager(e.g. conda or venv) install the python package requirements:
+
+    pip install -r requirements.txt
+
+NOTE: the default configuration will install regular tensorflow(non-gpu) if you have configured GPU, better install tensorflow-gpu==1.5.0
+
 # Configuring the notebooks
 
 Each of the two notebooks has a cell with constants at the top where you can configure the paths to the location where you checked out tensorflow/models and where you extracted the inception resnet v2 checkpoint. By default those are assumed to be in the project root folder. If you decided to use a different location you need to update those locations.
