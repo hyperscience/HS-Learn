@@ -15,7 +15,7 @@ After you download the archive, extract it:
 
     tar -xzvf inception_resnet_v2_2016_08_30.tar.gz
 
-# Installed required packages
+# Install required packages
 
 Using your favorite python environment manager(e.g. conda or venv) install the python package requirements:
 
