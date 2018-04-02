@@ -1,0 +1,12 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEA related files
+*.iml
+.idea/
+
+# Resnet checkpoint
+inception_resnet_v2_2016_08_30.*
+
+# tensorflow/models
+models/
